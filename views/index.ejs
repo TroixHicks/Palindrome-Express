@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Matching Game</title>
+
+		
+	
+	 <link rel="stylesheet" href="style.css"> 
+	</head>
+	<body>
+
+		<section class="container">
+			<h1> Palindrome Checker </h1>
+			<form action="/words" method="POST">
+				
+			 <input type= "text" placeholder="Enter a Word" name="word" id="input"></input>
+
+				<button> Enter </button>
+			</form>
+			<h2 id ="results"></h2>
+			
+
+			<% if(word.length > 0){ %>
+
+			<h2><%=word[word.length -1].word%> <%=word[word.length -1].palindrome%></h2>
+			<% } %>
+		
+			<script src="/main.js"></script>
+		</section>
+    
+    
+    </body>
+
+</html>

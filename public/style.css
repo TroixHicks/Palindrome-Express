@@ -1,0 +1,48 @@
+.container{
+    background-color: lightblue;
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    box-shadow: 12px 12px 2px 1px rgba(218, 24, 186, 0.479);
+    border-radius: 10px;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    height: 300px;
+}
+
+body{
+    font-family: monospace;
+    /* background-image: url(back.jpg); */
+    background-image: linear-gradient(to right, lightpink, lightblue);
+    
+}
+
+#results{
+    text-align: left;
+    line-height: 35px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    padding: 10px 0;
+    border: 2.5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(218, 24, 186, 0.479);
+}
+
+input{
+    padding: 13px;
+    border-radius: 5px;
+
+}
