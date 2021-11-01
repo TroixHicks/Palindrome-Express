@@ -4,3 +4,4 @@ Palindrome Checker
 
 Description: I created an application that lets you check if a word is a palindrome or not.
 
+TECH INCLUDED: HTML, CSS, JS,JSON, NODE.JS, EXPRESS
